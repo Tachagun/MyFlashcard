@@ -1,0 +1,29 @@
+node_modules
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Generated
+/src/generated/prisma
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Project artifacts
+postman.txt
+myFlashcard_FULL_PROJECT_LOG.md
